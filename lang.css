@@ -1,0 +1,59 @@
+/* Stijl voor de dropdown en knoppen */
+.language-selector {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.language-button {
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.language-button span {
+    margin-right: 8px;
+}
+
+.flag-icon {
+    font-size: 1.5rem;
+}
+
+.dropdown {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #333;
+    border-radius: 5px;
+    display: none;
+    z-index: 1000;
+}
+
+.dropdown.active {
+    display: block;
+}
+
+.dropdown-item {
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-item:hover {
+    background-color: #444;
+}
+
+.dropdown-item .flag-icon {
+    margin-right: 8px;
+}
+

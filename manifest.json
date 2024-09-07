@@ -1,0 +1,21 @@
+{
+    "name": "FireSearch",
+    "short_name": "FireSearch",
+    "description": "A simple search engine",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#111",
+    "theme_color": "#111",
+    "icons": [
+        {
+            "src": "assets/fav.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/fav.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
