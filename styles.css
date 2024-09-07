@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Cheese Matcha';
+    src: url('/fonts/Cheese\ Matcha.otf') format('truetype'); /* Gebruik het juiste bestandstype */
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif; /* Hoofdlettertype voor de pagina */
+    background-color: #1a1a1a; /* Donkergrijze achtergrond */
+    color: #f4f4f4; /* Lichte tekstkleur voor contrast */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0 20px; /* Ruimte aan de zijkanten van de pagina */
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.banner-container {
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 100%; /* Zorgt ervoor dat de banner niet breder wordt dan het scherm */
+}
+
+.banner {
+    width: auto;
+    max-width: 100%; /* Maximaliseert de breedte tot 100% van de container */
+    height: 200px; /* Verhoog de hoogte van de banner naar 200 pixels */
+    border-radius: 30px; /* Verhoog de afronding van de hoeken naar 30 pixels */
+    object-fit: cover; /* Zorgt ervoor dat de afbeelding goed wordt weergegeven */
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-bar {
+    width: 300px;
+    height: 40px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    padding: 0 15px;
+    box-shadow: 0 0 15px rgba(255, 165, 0, 0.7);
+    outline: none;
+    font-size: 16px;
+    background-color: #1a1a1a; /* Zelfde als de achtergrond voor een naadloze look */
+    color: #f4f4f4; /* Zorgt ervoor dat de tekst leesbaar is */
+}
+
+.search-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: darkorange;
+}
+
+footer {
+    background-color: #0d0d0d; /* Veel zwarter dan de rest van de achtergrond */
+    color: #f4f4f4; /* Lichte tekstkleur */
+    width: calc(100% - 40px); /* Voorkom dat de footer de gehele breedte van het scherm bedekt */
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center; /* Centreer de inhoud van de footer */
+    align-items: center;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    flex: 22; /* Zorg ervoor dat de linkerkant ruimte neemt */
+    text-align: left;
+}
+
+.footer-left p {
+    margin: 0;
+    font-size: 20px; /* Verhoog de grootte van de copyright-tekst */
+    font-family: 'Cheese Matcha', Arial, sans-serif; /* Toepassen van het Cheese Matcha-lettertype */
+}
+
+.footer-right {
+    flex: 1; /* Zorg ervoor dat de rechterkant ruimte neemt */
+    display: flex;
+    flex-direction: column; /* Zet de links onder elkaar */
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px; /* Haal de links van de rechterrand af */
+}
+
+.footer-link {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-family: 'Cheese Matcha', Arial, sans-serif; /* Toepassen van het Cheese Matcha-lettertype */
+}
+
+.footer-link i {
+    font-size: 18px; /* Grootte van de iconen aanpassen */
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
