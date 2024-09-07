@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Cheese Matcha';
-    src: url('/fonts/Cheese\ Matcha.otf') format('truetype'); /* Gebruik het juiste bestandstype */
+    src: url('./fonts/font.otf') format('truetype'); /* Gebruik het juiste bestandstype */
 }
 
 body {
